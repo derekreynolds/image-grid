@@ -6,5 +6,12 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'image-grid';
+  title = 'Image Grid';
+
+  pixels: number = 20;
+
+  opacity: number = 0.5;
+
+  color: string = '#000000';
+
 }
